@@ -1,4 +1,4 @@
-const API_ROOT = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000';
+const API_ROOT = '';
 
 async function request(path, options = {}) {
   let res;
